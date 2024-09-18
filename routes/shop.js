@@ -22,4 +22,6 @@ router.get('/orders', shopController.getOrders);
 
 router.get('/checkout', shopController.getCheckout);
 
+router.get('/users-with-product', shopController.getUsersWithProductInCart);
+
 module.exports = router;
